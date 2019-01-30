@@ -1,0 +1,33 @@
+syntax: glob
+.idea/
+*.sqlite
+*.sqlite3
+*.pyc
+*.swp
+*.swo
+*.db
+*.log
+*.py~
+*.html~
+*.css~
+*.orig
+*.sqlite
+*.DS_Store
+.vscode/*
+app/static/.sass-cache/*
+media/*
+media/uploads/*
+djangoecommerce/whoosh_index/*
+djangoecommerce/media/*
+staticfiles/*
+staticfiles
+local_settings.py
+cache/*
+logs/*
+.vscode
+djangoecommerce.sh
+djangoecommerce_db
+
+# switch to regexp syntax.
+syntax: regexp
+^media/img/mkt_base.\d+.*
